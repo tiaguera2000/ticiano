@@ -1,0 +1,26 @@
+
+.container{
+    height: 100vh;
+}
+body #input{
+    width: 50vh;
+}
+
+@media only screen and (max-width: 600px) {
+    body .btn{
+        width: 50vh;
+        margin-top: 2vh;
+    }
+    body #input{
+        margin-top: 30vh;
+    }
+
+  }
+  footer{
+    height: 20vh;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+footer p{
+    margin-top: 10vh;
+}
